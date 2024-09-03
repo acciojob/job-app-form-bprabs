@@ -12,11 +12,11 @@
 	    <label for="name">Name*:</label>
 		<input type="text" id="name" placeholder="Name" required><br>
 		<label for="email">Email*:</label>
-		<input type="email" required id="email" placeholder="Email" required><br>
+		<input type="email" id="email" placeholder="Email" required><br>
 		<legend>Gender*:</legend>		
-		<input type="radio" required id="gender_m" name="gender">
+		<input type="radio" id="gender_m" name="gender" required>
 		<label for="gender_m">Male</label>		
-		<input type="radio" required id="gender_f" name="gender">
+		<input type="radio" id="gender_f" name="gender" required>
 		<label for="gender_f">Female</label><br>
 		<label for="laptop">Laptop Brands*:</label><br>
 		<select id="laptop" required>
@@ -26,14 +26,14 @@
 			<option>Hp</option>
 		</select><br>
 		<label for="age">Age*:</label>
-		<input type="number" required id="age" placeholder="Age"><br>
+		<input type="number" id="age" placeholder="Age" required><br>
 		<label for="dob">DOB*:</label>
-		<input type="date" required id="dob"><br>
+		<input type="date" id="dob" required><br>
 		<label for="password">Password*:</label>
-		<input type="password"  id="password" placeholder="password" required><br>
-		<label for="portfolio">Portfolio URL*:</label><br>
+		<input type="password" id="password" placeholder="password" required><br>
+		<label for="portfolio">Portfolio URL*:</label>
 		<input type="url" id="portfolio" required><br>
-		<input type="button" value="Submit" required>
+		<button type="submit">Submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
