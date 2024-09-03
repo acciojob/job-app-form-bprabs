@@ -12,14 +12,14 @@
 	    <label for="name">Name*:</label>
 		<input type="text" id="name" placeholder="Name" required><br>
 		<label for="email">Email*:</label>
-		<input type="email" required id="email" placeholder="Email"><br>
+		<input type="email" required id="email" placeholder="Email" required><br>
 		<legend>Gender*:</legend>		
 		<input type="radio" required id="gender_m" name="gender">
 		<label for="gender_m">Male</label>		
 		<input type="radio" required id="gender_f" name="gender">
 		<label for="gender_f">Female</label><br>
 		<label for="laptop">Laptop Brands*:</label><br>
-		<select id="laptop">
+		<select id="laptop" required>
 			<option selected>Please choose an option</option>
 			<option>Apple</option>
 			<option>Asus</option>
@@ -32,8 +32,8 @@
 		<label for="password">Password*:</label>
 		<input type="password"  id="password" placeholder="password" required><br>
 		<label for="portfolio">Portfolio URL*:</label><br>
-		<input type="url" id="portfolio"><br>
-		<input type="button" value="Submit">
+		<input type="url" id="portfolio" required><br>
+		<input type="button" value="Submit" required>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
